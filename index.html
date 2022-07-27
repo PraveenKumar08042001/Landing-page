@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L and T Constructions</title>
+    <style>
+        .container {
+            background-image:url("l and t.png")
+            background-size: cover;
+            background-position: center;
+            width: 85%;
+            height: 95vh;
+            margin-top: 35px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 35px 35px #196d46;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: row;
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            padding: 10px;
+        }
+
+        li a {
+            color: rgb(173, 152, 50);
+            font-size: 0.8em;
+            text-decoration: none;
+        }
+
+        .nav img {
+            margin: 10px 10px 10px 70px;
+        }
+
+        .nav nav ul {
+            margin: 10px 40px 10px 330px;
+            text-transform: uppercase;
+        }
+        li:hover{
+            transform: scale(1.1);
+            transition: 0.2s ease-in-out;
+        }
+        li a:hover{
+            color: rgb(61, 36, 88);
+        }
+        .nav .b1 {
+            border-radius: 35px;
+            width: 75px;
+            height: 40px;
+            background-color: #7c2122;
+            margin: 10px 10px 10px 10px;
+            border: 1px solid #34847d;
+            box-shadow: 1px 4px 12px rgba(22, 5, 15, 0.15);
+            text-shadow: 0px 1px 0px #882174;
+            cursor: pointer;
+            color: rgb(57, 128, 81);
+            font-family: 'Poppins', sans-serif;
+        }
+        .b2{
+            border-radius: 35px;
+            width: 75px;
+            height: 40px;
+            background-color: rgb(161, 34, 34);
+            margin: 10px;
+            border: 1px solid #5e97d1;
+            box-shadow:1px 4px 12px rgba(94, 28, 68, .15);
+            text-shadow: 0px 1px 0px #05090d;
+            cursor: pointer;
+            color: #15802a;
+            font-family: 'Poppins', sans-serif;
+        }
+        .event{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .event .tags{
+            margin: 50px 50px 0px 51px;
+            color: white;
+            width: 50%;
+        }
+        .event .b2{
+            position: relative;
+            left: 100px;
+            top: 30px;
+        }
+        .b2:hover,.b1:hover{
+            box-shadow:3px 8px 22px rgba(45, 26, 38, 0.5);
+            transform: scale(1.1);
+            transition: 0.2s ease-in-out;
+        }
+        .image{
+            transform: translate(-30%,20%);
+            box-shadow: 0 0 30px 30px #774c1f;
+            border-radius: 50%;
+        
+        }
+        .image img{
+            border-radius: 50%;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="https://www.lntecc.com/" target="_blank"><img src="l and t.png" width="150" height="200"></a>
+            <nav>
+                <ul>
+                    <li><a href="https://www.lntecc.com/" target="_blank">We build</a></li>
+                    <li><a href="https://www.lntecc.com/" target="_blank">Our Projects</a></li>
+                    <li><a href="https://www.lntecc.com/" target="_blank">Our Awards</a></li>
+                    <li><a href="https://www.lntecc.com/" target="_blank">Our journey</a></li>
+                </ul>
+            </nav>
+            <button class="b1">Contact</button>
+            <button class="b2"> present projects</button>
+        </div>
+        <div class="event">
+            <div class="tags">
+                <h1 style="font-family: 'Poppins', sans-serif;">Be Young, Have Fun, <br> <span style="text-transform:uppercase ;font-family: 'Poppins', sans-serif;">Drink Pepsi</span></h1>
+                <p>
+                    As L&T Construction, the construction arm of L&T, we are India's largest construction organization and ranked among the world's top contractors. We contribute significantly to build the image and stature of L&T across the world and drive L&T's reputation as 'the builder of the India of the 21st century' by offering EPC solutions to execute large industrial and infrastructure projects from concept to commissioning on a turnkey basis with single-source responsibility. Our multiple businesses encompass distinct but complementary capabilities, that address different segments of infrastructure and industry.
+                </p>
+                <a href="https://www.lntecc.com/" target="_blank"><button class="b2">Book the flat now</button></a>
+            </div>
+            <div class="image">
+                <img src="l and t 2.jpg"
+                height="300px" width="450px">
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
